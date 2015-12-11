@@ -1,0 +1,17 @@
+{
+	"name" : "CSTruter/Service",
+	"description" : "Base classes for creating a web service",
+	"version" : "0.1.0",
+	"autoload": {
+		"classmap" : [
+			"Exceptions/ServiceException.php",
+			"Interfaces/ISecureService.php",
+			"ServiceBase.php",
+			"ServiceMethod.php",
+			"Results/IHttpResult.php",
+			"Results/BinaryResult.php",
+			"Results/ErrorResult.php",
+			"Results/JsonResult.php"
+		]
+	}
+}
